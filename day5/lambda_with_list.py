@@ -1,0 +1,3 @@
+nums = [1, 2, 3, 4, 6, 7]
+evens = list(filter(lambda x: x % 2 == 0, nums))
+print(evens)  # выводит только чётные числа
